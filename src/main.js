@@ -5,12 +5,20 @@ import vuetify from './plugins/vuetify';
 import axios from 'axios'
 import VueRouter from 'vue-router'
 
+import HelloWorld from '@/components/HelloWorld'
+
 Vue.use(axios)
 Vue.use(VueRouter)
 
 Vue.config.productionTip = false
 
-const router = new VueRouter()
+const routes = [
+  { path: '/', component: HelloWorld },
+]
+
+const router = new VueRouter({
+  routes: routes
+})
 
 new Vue({
   vuetify,
