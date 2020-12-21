@@ -1,6 +1,9 @@
-# web-app
+# Linkedin-Company-Search
 
-## Project setup
+## Note: I was unaware the LinkedIn Company API was deprecated when I started this project so the calls to
+## the API in this project do not work, but authentication with LinkedIn does
+
+### Project setup
 ```
 npm install
 ```
@@ -14,11 +17,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

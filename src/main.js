@@ -5,7 +5,7 @@ import vuetify from './plugins/vuetify';
 import axios from 'axios'
 import VueRouter from 'vue-router'
 
-import HelloWorld from '@/components/HelloWorld'
+import Main from '@/components/Main'
 
 Vue.use(axios)
 Vue.use(VueRouter)
@@ -13,7 +13,7 @@ Vue.use(VueRouter)
 Vue.config.productionTip = false
 
 const routes = [
-  { path: '/', component: HelloWorld },
+  { path: '/', component: Main },
 ]
 
 const router = new VueRouter({
