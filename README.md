@@ -1,6 +1,8 @@
-# web-app
+# Linkedin-Company-Search
 
-## Project setup
+## Note: The LinkedIn Company API V1 is deprecated and calls to it return 404
+
+### Project setup
 ```
 npm install
 ```
@@ -14,11 +16,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
