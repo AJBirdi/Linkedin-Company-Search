@@ -1,6 +1,6 @@
 # Linkedin-Company-Search
 
-## Note: I was unaware the LinkedIn Company API was deprecated when I started this project so the calls to the API in this project do not work, but authentication with LinkedIn does
+## Note: The LinkedIn Company API V1 is deprecated and calls to it return 404
 
 ### Project setup
 ```
