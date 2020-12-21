@@ -17,7 +17,7 @@ the application will run on http://localhost:8080
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compiles and runs
 ```
 npm run serve
 ```
